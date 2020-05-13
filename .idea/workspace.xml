@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4405c44-8e3d-4b96-8e48-4d315f4f635b" name="Default Changelist" comment="" />
+    <list default="true" id="f4405c44-8e3d-4b96-8e48-4d315f4f635b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SixthLaba/Lab6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SixthLaba/Lab6.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,19 +32,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Ycm93J9lJipffOCky1nq9KNljP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
-  <component name="RunManager" selected="Application.lab_4">
+  <component name="RunManager" selected="Application.Tenis">
     <configuration name="FirtstLaba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.firstlaba.FirtstLaba" />
       <module name="1_Laba" />
@@ -80,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Synchro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="secondlaba.Synchro" />
+    <configuration name="Tenis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SixthLaba.Tenis" />
       <module name="1_Laba" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="secondlaba.*" />
+          <option name="PATTERN" value="SixthLaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tenis" />
+        <item itemvalue="Application.Lab5" />
         <item itemvalue="Application.lab_4" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.FirtstLaba" />
-        <item itemvalue="Application.Synchro" />
-        <item itemvalue="Application.Lab5" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +155,8 @@
       <workItem from="1588407393365" duration="57000" />
       <workItem from="1588407460849" duration="546000" />
       <workItem from="1589198488059" duration="2392000" />
-      <workItem from="1589275279940" duration="16518000" />
+      <workItem from="1589275279940" duration="17494000" />
+      <workItem from="1589363897471" duration="2563000" />
     </task>
     <servers />
   </component>
@@ -154,46 +164,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1589304047516">
+    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1589365998481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589304047516" />
-    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1589304047516">
+    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589365998481" />
+    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1589365998481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589304047516" />
-    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1589304047515">
+    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589365998481" />
+    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1589365998481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589304047515" />
-    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1589304047516">
+    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589365998481" />
+    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1589365998481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589304047516" />
-    <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1589275940932">
+    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589365998481" />
+    <state width="746" height="261" key="GridCell.Tab.1.bottom" timestamp="1589306178936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589275940932" />
-    <state width="746" height="261" key="GridCell.Tab.1.center" timestamp="1589275940932">
+    <state width="746" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589306178936" />
+    <state width="746" height="261" key="GridCell.Tab.1.center" timestamp="1589306178936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589275940932" />
-    <state width="746" height="261" key="GridCell.Tab.1.left" timestamp="1589275940932">
+    <state width="746" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589306178936" />
+    <state width="746" height="261" key="GridCell.Tab.1.left" timestamp="1589306178936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589275940932" />
-    <state width="746" height="261" key="GridCell.Tab.1.right" timestamp="1589275940932">
+    <state width="746" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589306178936" />
+    <state width="746" height="261" key="GridCell.Tab.1.right" timestamp="1589306178936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589275940932" />
+    <state width="746" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589306178936" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1588408005221">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588408005221" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589275280017">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589363908091">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589275280017" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589363908091" />
     <state x="499" y="178" key="extract.method.dialog" timestamp="1588089421478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

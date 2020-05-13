@@ -8,17 +8,18 @@ class Tenis extends Frame implements Runnable, KeyListener
     {
         if ((e.getKeyCode()==KeyEvent.VK_UP) & (rY > 20))
             rY-=10;
-        if ((e.getKeyCode()==KeyEvent.VK_DOWN) & (rY < getSize().height-racket))
+        if ((e.getKeyCode()==KeyEvent.VK_DOWN) & (rY < getSize().height- racketHeight))
             rY+=10;
         repaint();
     }
     public void keyReleased(KeyEvent e) {}
     public void keyTyped(KeyEvent e) {}
-    int x=100, y=120;
+    int bX =100, bY =120; // стартова позиція м'ячика
     int stepx=5, stepy=3;
-    int racket=200;
-    int rY=40;
-    int pause=25;
+    int racketHeight = 500, racketWidth = 10; //розміри ракетки;
+    int ballWidth = 20, ballHeight = 20; // розміри м'ячика;
+    int rY=40, rX = 40; // координати ракетки
+    int pause=10; // скорость
     int level=1, count=0;
     boolean flag=true;
     public void run()
@@ -27,30 +28,30 @@ class Tenis extends Frame implements Runnable, KeyListener
         {
             try
             {
-                x+=stepx;
-                y+=stepy;
-                if ((x < 50) & (rY < y) & ((rY+racket) > y))
+                bX +=stepx;
+                bY +=stepy;
+                if ((bX < rX) & (rY < bY) & ((rY+ racketHeight) > bY))
                 {
                     stepx=-stepx;
                     count++;
                 }
-                if (count > 5)
+                if (count > 0)
                 {
                     pause=(int)(pause-pause/10);
-                    racket=(int)(racket-racket/10);
+                    racketHeight =(int)(racketHeight - racketHeight /10);
                     count=0;
                     level++;
                     setTitle("Level = "+ level);
                 }
-                if (x < 0)
+                if (bX < 0)
                 {
                     flag=false;
                     dispose();
                     System.out.println("Жы есть ?? : "+level);
                     System.exit(0);
                 }
-                if (x > getSize().width-20) stepx=-stepx;
-                if ((y < 20)|(y > getSize().height-20)) stepy=-stepy;
+                if (bX > getSize().width-20) stepx=-stepx;
+                if ((bY < 20)|(bY > getSize().height-20)) stepy=-stepy;
                 repaint();
                 Thread.sleep(pause);
             }
@@ -59,14 +60,14 @@ class Tenis extends Frame implements Runnable, KeyListener
     }
     public void paint(Graphics g)
     {
-        g.fillOval(x,y,100,100);
-        g.fillRect(50,rY,10,racket);
+        g.fillOval(bX, bY,ballWidth,ballHeight);
+        g.fillRect(rX,rY,racketWidth, racketHeight);
     }
     public Tenis()
     {
         super("Level 1");
         addKeyListener(this);
-        setSize(800,600);
+        setSize(400,200);
         setVisible(true);
         Thread myThr = new Thread(this);
         myThr.start();
