@@ -14,12 +14,12 @@ class Tenis extends Frame implements Runnable, KeyListener
     }
     public void keyReleased(KeyEvent e) {}
     public void keyTyped(KeyEvent e) {}
-    int bX =100, bY =120; // стартова позиція м'ячика
+    int bX, bY; // стартова позиція м'ячика
     int stepx=5, stepy=3;
-    int racketHeight = 500, racketWidth = 10; //розміри ракетки;
-    int ballWidth = 20, ballHeight = 20; // розміри м'ячика;
+    int racketHeight = 200, racketWidth = 10; //розміри ракетки;
+    int ballWidth, ballHeight; // розміри м'ячика;
     int rY=40, rX = 40; // координати ракетки
-    int pause=10; // скорость
+    int pause; // скорость
     int level=1, count=0;
     boolean flag=true;
     public void run()
@@ -67,7 +67,25 @@ class Tenis extends Frame implements Runnable, KeyListener
     {
         super("Level 1");
         addKeyListener(this);
-        setSize(400,200);
+        setSize(800,600);
+        bX =100;
+        bY =120; // стартова позиція м'ячика
+        ballWidth = 20;
+        ballHeight = 20; // розміри м'ячика;
+        pause=10; // скорость
+        setVisible(true);
+        Thread myThr = new Thread(this);
+        myThr.start();
+    }
+    public Tenis(int xStart, int yStart, int radius, int speed){
+        super("Level 1");
+        addKeyListener(this);
+        setSize(800,600);
+        this.bX = xStart;
+        this.bY = yStart;
+        this.ballWidth = radius;
+        this.ballHeight = radius;
+        this.pause = speed;
         setVisible(true);
         Thread myThr = new Thread(this);
         myThr.start();
